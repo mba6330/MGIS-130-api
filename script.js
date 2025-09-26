@@ -34,7 +34,7 @@ async function makeAPIRequest(url, params = {}) {
 }
 
 // Processing Layer - Get Quote Data
-async function getQuote(category) {
+async function getQuote() {
     try {
         showLoading('quote', true);
         
